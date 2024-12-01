@@ -832,6 +832,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3575428153783027585}
   m_Mesh: {fileID: -7102350196987980496, guid: 6be3f7324f26ff04c83ef7f280f9fdd7, type: 3}
+--- !u!23 &1019127618983001443
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523438623535062198}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7bf19d870bcdfae4a98d594edcead82c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1254715048753760599
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,6 +962,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1523438623535062198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2193121042008540684}
+  - component: {fileID: 3008506129548675497}
+  - component: {fileID: 1019127618983001443}
+  - component: {fileID: 3008506129548675498}
+  m_Layer: 0
+  m_Name: Vege-Cabbage
+  m_TagString: CanSliceCabbage
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &2080611692897637910
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +1030,21 @@ Transform:
   m_Children:
   - {fileID: 7418570340567173270}
   - {fileID: 124379617166285951}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2193121042008540684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523438623535062198}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.428, y: 0.36, z: -7.148}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2259551809406793395
@@ -1058,6 +1136,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5486583807071225574}
   m_Mesh: {fileID: -3032934717660054078, guid: 83f22d96788ecf046b4ee3c4d0960bd3, type: 3}
+--- !u!33 &3008506129548675497
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523438623535062198}
+  m_Mesh: {fileID: -7102350196987980496, guid: d40ac4182e6f3eb4cbf05c50635c0565, type: 3}
+--- !u!64 &3008506129548675498
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523438623535062198}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7102350196987980496, guid: d40ac4182e6f3eb4cbf05c50635c0565, type: 3}
 --- !u!23 &3071037708391720532
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1580,7 +1688,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea6d456fdb9960145a21fd741bd7e8b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SlicedMat: {fileID: 2100000, guid: 1a6dce185ab82194da1856ce4530a7b5, type: 2}
+  carrotMat: {fileID: 2100000, guid: 854947a4389b2aa408cc4abdb9c7fd29, type: 2}
+  cabbageMat: {fileID: 2100000, guid: 40cde09ea1117f349bc2a074502d7c49, type: 2}
   sidePushForce: 0
   rotationForce: 10
   gravity: 1
@@ -2000,3 +2109,4 @@ SceneRoots:
   - {fileID: 4239479732910644539}
   - {fileID: 2191845161581784353}
   - {fileID: 7279155816696442079}
+  - {fileID: 2193121042008540684}
